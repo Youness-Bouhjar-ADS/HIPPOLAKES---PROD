@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Task Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Moves</fullName>
+                <default>false</default>
+                <label>Moves</label>
+            </value>
+            <value>
+                <fullName>Customer to Donor</fullName>
+                <default>false</default>
+                <label>Customer to Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

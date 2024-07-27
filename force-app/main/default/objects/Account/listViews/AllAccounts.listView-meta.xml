@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Donor_Category__c</columns>
+    <columns>Type__c</columns>
+    <columns>DonorActive__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Board Member,Board of Advisors,Donor,Donors,Foundation,Ministry Partner,Prayer List,Prospect</value>
+    </filters>
+    <label>All Accounts</label>
+</ListView>

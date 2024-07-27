@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PDF Workbook</fullName>
+                <default>false</default>
+                <label>PDF Workbook</label>
+            </value>
+            <value>
+                <fullName>Church Campaign Kit</fullName>
+                <default>false</default>
+                <label>Church Campaign Kit</label>
+            </value>
+            <value>
+                <fullName>Streaming with One Workbook</fullName>
+                <default>false</default>
+                <label>Streaming with One Workbook</label>
+            </value>
+            <value>
+                <fullName>Streaming with 2 workbooks</fullName>
+                <default>false</default>
+                <label>Streaming with 2 workbooks</label>
+            </value>
+            <value>
+                <fullName>Devotional</fullName>
+                <default>false</default>
+                <label>Devotional</label>
+            </value>
+            <value>
+                <fullName>Free Gift</fullName>
+                <default>false</default>
+                <label>Free Gift</label>
+            </value>
+            <value>
+                <fullName>French Bible School on Wheels 1</fullName>
+                <default>false</default>
+                <label>French Bible School on Wheels 1</label>
+            </value>
+            <value>
+                <fullName>Gift Card</fullName>
+                <default>false</default>
+                <label>Gift Card</label>
+            </value>
+            <value>
+                <fullName>Donation</fullName>
+                <default>false</default>
+                <label>Donation</label>
+            </value>
+            <value>
+                <fullName>CD</fullName>
+                <default>false</default>
+                <label>CD</label>
+            </value>
+            <value>
+                <fullName>Leader&apos;s Guide</fullName>
+                <default>false</default>
+                <label>Leader&apos;s Guide</label>
+            </value>
+            <value>
+                <fullName>Super Book 2</fullName>
+                <default>false</default>
+                <label>Super Book 2</label>
+            </value>
+            <value>
+                <fullName>Super Book 1</fullName>
+                <default>false</default>
+                <label>Super Book 1</label>
+            </value>
+            <value>
+                <fullName>Streaming with 10 workbooks</fullName>
+                <default>false</default>
+                <label>Streaming with 10 workbooks</label>
+            </value>
+            <value>
+                <fullName>Teachers Kit with 10 workbooks</fullName>
+                <default>false</default>
+                <label>Teachers Kit with 10 workbooks</label>
+            </value>
+            <value>
+                <fullName>Course</fullName>
+                <default>false</default>
+                <label>Course</label>
+            </value>
+            <value>
+                <fullName>Leader&apos;s Kit</fullName>
+                <default>false</default>
+                <label>Leader&apos;s Kit</label>
+            </value>
+            <value>
+                <fullName>Book</fullName>
+                <default>false</default>
+                <label>Book</label>
+            </value>
+            <value>
+                <fullName>God Pocket Pack</fullName>
+                <default>false</default>
+                <label>God Pocket Pack</label>
+            </value>
+            <value>
+                <fullName>Bundle</fullName>
+                <default>false</default>
+                <label>Bundle</label>
+            </value>
+            <value>
+                <fullName>Workbook</fullName>
+                <default>false</default>
+                <label>Workbook</label>
+            </value>
+            <value>
+                <fullName>DVD</fullName>
+                <default>false</default>
+                <label>DVD</label>
+            </value>
+            <value>
+                <fullName>Streaming Video</fullName>
+                <default>false</default>
+                <label>Streaming Video</label>
+            </value>
+            <value>
+                <fullName>OPTIONS_HIDDEN_PRODUCT</fullName>
+                <default>false</default>
+                <label>OPTIONS_HIDDEN_PRODUCT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mid_Donors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Donor_Category__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Board Member,Board of Advisors,Donor,Donors,Foundation,Ministry Partner,Prayer List,Prospect</value>
+    </filters>
+    <filters>
+        <field>Donor_Category__c</field>
+        <operation>equals</operation>
+        <value>Mid</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PersonAccount</value>
+    </filters>
+    <label>Mid Donors</label>
+</ListView>

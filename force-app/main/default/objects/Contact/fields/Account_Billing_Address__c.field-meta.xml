@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Billing_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.BillingStreet &amp; &quot;, &quot; &amp; 
+IF(
+    NOT(ISBLANK(Account.BillingCity)), Account.BillingCity &amp; &quot;, &quot;, &quot;&quot;
+) &amp;
+IF(
+    NOT(ISBLANK(Account.BillingState)), Account.BillingState &amp; &quot; &quot;, &quot;&quot;
+) &amp;
+Account.BillingPostalCode &amp; &quot;, &quot; &amp; 
+Account.BillingCountry</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Billing Address</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

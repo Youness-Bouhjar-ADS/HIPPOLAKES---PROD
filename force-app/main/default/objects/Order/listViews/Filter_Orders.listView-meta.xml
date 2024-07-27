@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Orders</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>Shopify_Order_Id__c</columns>
+    <columns>Shopify_Order_Number__c</columns>
+    <columns>Shopify_URL__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDERS.TOTAL_AMOUNT</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <columns>Total_Price__c</columns>
+    <columns>ORDERS.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Shopify_Order_Number__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Filter Orders</label>
+</ListView>

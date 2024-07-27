@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shopify_Customers</fullName>
+    <columns>NAME</columns>
+    <columns>Email__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Customer__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Shopify Customers</label>
+</ListView>

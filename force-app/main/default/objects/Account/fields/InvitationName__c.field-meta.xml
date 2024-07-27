@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvitationName__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(SUBSTITUTE(Name , &quot;Household&quot;, &quot;&quot;), &quot;&amp;&quot;, &quot;and&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Invitation Name</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shopify_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+    &quot;https://admin.shopify.com/store/teach-every-nation/orders/&quot; &amp; Shopify_Order_Id__c,
+    &quot;View Shopify Order&quot;,
+    &quot;_blank&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Shopify URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

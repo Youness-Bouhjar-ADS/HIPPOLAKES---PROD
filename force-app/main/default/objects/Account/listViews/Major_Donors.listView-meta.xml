@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Major_Donors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Donor_Category__c</columns>
+    <columns>Type__c</columns>
+    <columns>DonorActive__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>PC_EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Donor_Category__c</field>
+        <operation>equals</operation>
+        <value>Major</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PersonAccount</value>
+    </filters>
+    <label>Major Donors</label>
+</ListView>

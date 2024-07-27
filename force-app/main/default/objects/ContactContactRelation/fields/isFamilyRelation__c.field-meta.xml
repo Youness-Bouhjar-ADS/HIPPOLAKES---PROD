@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isFamilyRelation__c</fullName>
+    <description>Check if the relationship is a family relationship</description>
+    <externalId>false</externalId>
+    <formula>OR(
+        PartyRoleRelation.RoleName = &quot;Brother&quot;,
+        PartyRoleRelation.RoleName = &quot;Sister&quot;,
+        PartyRoleRelation.RoleName = &quot;Daughter&quot;,
+        PartyRoleRelation.RoleName = &quot;Son&quot;,
+        PartyRoleRelation.RoleName = &quot;Spouse&quot;,
+        PartyRoleRelation.RoleName = &quot;Father&quot;
+    )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isFamilyRelation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

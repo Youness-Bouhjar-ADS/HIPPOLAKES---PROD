@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Order_Compact</fullName>
+    <fields>OrderNumber</fields>
+    <fields>Shopify_Order_Number__c</fields>
+    <fields>AccountId</fields>
+    <fields>Total_Price__c</fields>
+    <fields>EffectiveDate</fields>
+    <fields>Status</fields>
+    <label>Custom Order Compact</label>
+</CompactLayout>

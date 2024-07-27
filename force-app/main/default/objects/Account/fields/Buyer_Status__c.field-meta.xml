@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TotalOrders__c &gt;= 2, &quot;Repeat Buyer&quot;, 
+  IF(TotalOrders__c = 1, &quot;First Buyer&quot;, 
+  &quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Buyer Status</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
